@@ -1,0 +1,31 @@
+.color-change {
+  color: black;
+}
+.color-change:hover {
+  color: red;
+}
+.color-change:active {
+  color: slateblue;
+}
+
+.logo:focus {
+  color: royalblue;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+.color-logo-web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+.color-logo-studio {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
