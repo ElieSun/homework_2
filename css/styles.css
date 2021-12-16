@@ -1,31 +1,450 @@
-.color-change {
-  color: black;
+/* Шапка */
+head {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: -44px;
+  top: 0px;
+  background: #ffffff;
 }
+ul {
+  list-style: none;
+}
+.main-section {
+  background-color: #2f303a;
+}
+.page-header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight
+  background: #ffffff;
+}
+/* Ховер-меняет цвет при наведении */
 .color-change:hover {
   color: red;
 }
+/* Актив - при нажатии на ссылку меняет цвет */
 .color-change:active {
   color: slateblue;
 }
-
+/* Фокус ссылок */
 .logo:focus {
   color: royalblue;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
 }
+/* Част цвета логотипа */
 .color-logo-web {
   color: #2196f3;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
+/*  Menu Навигация сайта */
+.site-nav {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 171px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/* Студия */
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 171px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+/* Цвет второй части логотипра вебсайт */
 .color-logo-studio {
-  color: #000000;
-  font-family: Raleway;
+  color: black;
+}
+/* Ссылка Студия */
+.studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 409px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+/* Портфолио */
+.portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 508px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Контакты */
+.contact {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 635px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Почта и телефон */
+/* Tel */
+.tel {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1219px;
+  top: 32px;
+  color: #212121;
+}
+/* mail */
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1034px;
+  top: 32px;
+  color: #2196f3;
+}
+/* Секция заказать услугу */
+.main-section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: -44px;
+  top: 80px;
+}
+/* Заголовок секции */
+.hero-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 408px;
+  top: 280px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/* Кнопка */
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 656px;
+  top: 430px;
+}
+/* Секция чем мы занимаемся */
+
+/* Заголовок Внимание к деталям */
+.action {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 208px;
+  top: 777px;
+
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
 }
-ul {
-  list-style: none;
+/* Параграф внимание к деталям */
+.action-paragraf {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Заголовок пунктуальность */
+.punctuality {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Параграф пунктуальность */
+.punctuality-paragraf {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Заголовок планирование */
+.planing {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Параграф планирование */
+.planing-paragraf {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Заголовок Совеременные технологии */
+.modern-technologies {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Параграф Совеременные технологии */
+.modern-technologies-paragraf {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Секция с картинками */
+.section-images {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* 3 картинки */
+.images-1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.images-2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.images-3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+/* Наша Команда */
+/* Заголовок Наша */
+.title-h2 {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* Игорь Демьяненко */
+.mentor-1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: #ffffff;
+}
+/* Ольга Репина */
+.mentor-2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+  background: #ffffff;
+}
+/* Николай Тарасов */
+.mentor-3 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 815px;
+  top: 1635px;
+  background: #ffffff;
+}
+/* Михаил Ермаков */
+.mentor-4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+  background: #ffffff;
+}
+
+/* Подвал сайта */
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+/* Address */
+.address {
+  background: blueviolet;
 }
