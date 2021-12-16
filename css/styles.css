@@ -143,7 +143,7 @@ ul {
   height: 16px;
   left: 1219px;
   top: 32px;
-  color: #212121;
+  color: #fc9999;
 }
 /* mail */
 .mail {
@@ -152,7 +152,7 @@ ul {
   height: 16px;
   left: 1034px;
   top: 32px;
-  color: #2196f3;
+  color: #757575;
 }
 /* Секция заказать услугу */
 .main-section {
@@ -446,5 +446,124 @@ ul {
 
 /* Address */
 .address {
-  background: blueviolet;
+  position: absolute;
+width: 231px;
+height: 81px;
+left: 215px;
+top: 1739px;
+} 
+
+
+       /* СТАРНИЦА ПОРТФОЛИО */
+/* Секция с кнопками */
+.section-buttons {
+    position: absolute;
+width: 611px;
+height: 54px;
+left: 495px;
+top: 174px;
+}
+/* Секция с картинками */
+.section-img {
+    position: absolute;
+width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
+}
+/* Картинка 1 */
+.project-1 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+}
+.paragraf-1 {
+    color: #757575;
+}
+/* Картинка 2 */
+.project-2 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 262px;
+}
+.paragraf-2 {
+    color: #757575;
+}
+/* Картинка 3 */
+.project-3 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 262px;
+}
+.paragraf-3 {
+    color: #757575;
+}
+/* Картинка 4 */
+.project-4 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 696px;
+}
+.paragraf-4 {
+    color: #757575;
+}
+/* Картинка 5 */
+.project-5 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 696px;
+}
+.paragraf-5 {
+    color: #757575;
+}
+/* Картинка 6 */
+.project-6 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 696px;
+}
+/* Картинка 7 */
+.project-7 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 1130px;
+}
+.paragraf-7 {
+    color: #757575;
+}
+/* Картинка 8 */
+.project-8 {
+    position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 1130px;
+}
+.paragraf-8 {
+      color: #757575;
+}
+/* Картинка 9 */
+.project-9 {
+position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 1130px;
+}
+.paragraf-9 {
+      color: #757575;
 }
